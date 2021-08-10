@@ -86,7 +86,5 @@ Button(root, text=")", command=lambda: get_operations(")")).grid(row=4, column=5
 Button(root, text="=", command= lambda: calculate()).grid(row=5, column=4, sticky=W+E, columnspan= 2)
 
 
-#nuevo cambio
-#Este es el ultimo cambio
-#Nuevo cambio v1.1
+#Last change in proyect
 root.mainloop()
