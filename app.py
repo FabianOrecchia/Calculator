@@ -2,9 +2,8 @@ from tkinter import *
 import parser
 import tkinter as tk
 
-
 root = tk.Tk()
-root.geometry("400x145")
+root.geometry("400x143")
 root.title("Calculator")
 root.resizable(0, 0)
 display = Entry(root)
@@ -16,16 +15,7 @@ root.columnconfigure(3, weight=1)
 root.columnconfigure(4, weight=1)
 root.columnconfigure(5, weight=1)
 
-# root.rowconfigure(1, weight=1)
-# root.rowconfigure(2, weight=1)
-
-
-
 display.grid(row=1, columnspan=6, sticky=W+E,)
-
-
-
-
 
 i = 0
 def get_numbers(n):
